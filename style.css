@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-Regular.ttf') format('truetype'),
+        url('fonts/Outfit-Bold.ttf') format('truetype');
+}
+
+:root {
+    --white: 0, 0%, 100%;
+    --white-hsl: hsl(0, 0%, 100%);
+
+    --grayish-blue: 220, 15%, 55%;
+    --grayish-blue-hsl: hsl(220, 15%, 55%);
+
+    --dark-blue: 218, 44%, 22%;
+    --dark-blue-hsl: hsl(218, 44%, 22%);
+}
+
+html,
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media (min-width: 376px) {}
